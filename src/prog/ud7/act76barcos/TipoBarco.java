@@ -15,11 +15,11 @@ public enum TipoBarco {
     public String toString() {
         switch (this) {
             case BARCO:
-                return "Barco";
+                return "BARCO";
             case BARCO_DE_GUERRA:
-                return "Barco de Guerra";
+                return "BARCO DE GUERRA";
             case BARCO_DE_PESCA:
-                return "Barco de Pesca";
+                return "BARCO DE PESCA";
             default:
                 return "No especificado";
         }
